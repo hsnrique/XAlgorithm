@@ -1,4 +1,4 @@
-# xalgo
+# X Algorithm
 
 A plain-language walkthrough of the open-source [X For You feed algorithm](https://github.com/xai-org/x-algorithm), in English and Portuguese.
 
