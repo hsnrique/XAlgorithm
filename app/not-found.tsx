@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Geist } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Logo } from "./components/logo";
 import { DEFAULT_LOCALE } from "./lib/locales";
@@ -26,6 +27,7 @@ export default function GlobalNotFound() {
             Go to overview →
           </Link>
         </main>
+        <Analytics />
       </body>
     </html>
   );

@@ -97,4 +97,3 @@ Each stage has these fields:
 ## Credits
 
 Built by [Henrique Martins](https://github.com/hsnrique). Source material from [xai-org/x-algorithm](https://github.com/xai-org/x-algorithm).
-# Xalgorithm

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 import {
   isLocale,
@@ -50,6 +51,7 @@ export default async function LocaleLayout({
       <body className="flex min-h-full flex-col">
         <SiteHeader locale={locale} ui={ui} />
         <main className="flex-1">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
